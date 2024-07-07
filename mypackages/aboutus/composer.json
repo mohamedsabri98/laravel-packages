@@ -1,0 +1,26 @@
+{
+    "name": "mypackages/aboutus",
+    "description": "about us package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mypackages\\Aboutus\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mypackages\\Aboutus\\AboutusServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "mohamedsabri98",
+            "email": "muhammed77171@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
