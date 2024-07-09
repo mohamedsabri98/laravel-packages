@@ -1,17 +1,17 @@
 {
-    "name": "mypackages/aboutus",
-    "description": "about us package",
+    "name": "mypackages/mainslider",
+    "description": "mainslider",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mypackages\\Aboutus\\": "src/"
+            "Mypackages\\Mainslider\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MyPackages\\Aboutus\\AboutusServiceProvider"
+                "Mypackages\\Mainslider\\MainsliderServiceProvider"
             ]
         }
     },

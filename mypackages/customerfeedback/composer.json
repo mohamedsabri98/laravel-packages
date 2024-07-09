@@ -1,17 +1,17 @@
 {
-    "name": "mypackages/aboutus",
-    "description": "about us package",
+    "name": "mypackages/customerfeedback",
+    "description": "customer feedback page",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mypackages\\Aboutus\\": "src/"
+            "Mypackages\\Customerfeedback\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MyPackages\\Aboutus\\AboutusServiceProvider"
+                "Mypackages\\Customerfeedback\\CustomerfeedbackServiceProvider"
             ]
         }
     },

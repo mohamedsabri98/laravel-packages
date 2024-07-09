@@ -1,17 +1,17 @@
 {
-    "name": "mypackages/aboutus",
-    "description": "about us package",
+    "name": "mypackages/contactus",
+    "description": "contact us",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mypackages\\Aboutus\\": "src/"
+            "Mypackages\\Contactus\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MyPackages\\Aboutus\\AboutusServiceProvider"
+                "Mypackages\\Contactus\\ContactusServiceProvider"
             ]
         }
     },
